@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
              mobileMenuBtn.classList.remove('open');
              mobileNavOverlay.classList.remove('active');
              document.body.style.overflow = '';
+             document.documentElement.style.overflow = '';
           }
         }
       }
@@ -136,7 +137,9 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenuBtn.addEventListener('click', () => {
       mobileMenuBtn.classList.toggle('open');
       mobileNavOverlay.classList.toggle('active');
-      document.body.style.overflow = mobileNavOverlay.classList.contains('active') ? 'hidden' : '';
+      const isMenuOpen = mobileNavOverlay.classList.contains('active');
+      document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+      document.documentElement.style.overflow = isMenuOpen ? 'hidden' : '';
     });
   }
 
