@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <link rel="stylesheet" href="/src/style.css">
+      <link rel="preload" as="image" href="/images/hero.webp">
   </head>
   <body>
     <!-- Custom Cursor (optional flair, implemented in CSS/JS) -->
@@ -67,7 +68,7 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-      <div class="hero-bg parallax-bg" id="hero-bg" style="background-image: url('/images/hero.png');"></div>
+      <div class="hero-bg parallax-bg" id="hero-bg" style="background-image: url('/images/hero.webp');"></div>
       <div class="hero-overlay"></div>
       
       <div class="hero-content container">
@@ -113,10 +114,10 @@
       <div class="container about-asymmetric">
         <div class="about-images fade-in-left">
           <div class="img-wrapper main-img parallax-img">
-            <img src="/images/reception.png" alt="Elegant Reception Stage">
+            <img loading="lazy" src="/images/reception.webp" alt="Elegant Reception Stage">
           </div>
           <div class="img-wrapper sub-img">
-            <img src="/images/floral.png" alt="Floral Details">
+            <img loading="lazy" src="/images/floral.webp" alt="Floral Details">
           </div>
         </div>
         <div class="about-text fade-in-right">
@@ -188,7 +189,7 @@
         <div class="masonry-grid">
           <div class="masonry-item large fade-up">
             <div class="image-wrapper">
-              <img src="/images/hero.png" alt="Royal Wedding Stage">
+              <img loading="lazy" src="/images/hero.webp" alt="Royal Wedding Stage">
               <div class="overlay-content">
                 <span class="category">Wedding</span>
                 <h4>The Royal Heritage</h4>
@@ -197,7 +198,7 @@
           </div>
           <div class="masonry-item medium fade-up delay-1">
             <div class="image-wrapper">
-              <img src="/images/reception.png" alt="Elegant Reception">
+              <img loading="lazy" src="/images/reception.webp" alt="Elegant Reception">
               <div class="overlay-content">
                 <span class="category">Reception</span>
                 <h4>Modern Glamour</h4>
@@ -206,7 +207,7 @@
           </div>
           <div class="masonry-item small fade-up delay-2">
             <div class="image-wrapper">
-              <img src="/images/floral.png" alt="Floral Arch">
+              <img loading="lazy" src="/images/floral.webp" alt="Floral Arch">
               <div class="overlay-content">
                 <span class="category">Floral</span>
                 <h4>Garden of Eden</h4>
@@ -237,8 +238,8 @@
         <div class="why-image-grid fade-in-right">
             <!-- Decorative elements to add depth -->
             <div class="decor-circle"></div>
-            <img src="/images/reception.png" class="stack-img img-1" alt="Decor Detail">
-            <img src="/images/floral.png" class="stack-img img-2" alt="Decor Detail">
+            <img loading="lazy" src="/images/reception.webp" class="stack-img img-1" alt="Decor Detail">
+            <img loading="lazy" src="/images/floral.webp" class="stack-img img-2" alt="Decor Detail">
         </div>
       </div>
     </section>
