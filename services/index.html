@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | RDS Stage Decorations</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-content">
+        <a href="/" class="logo">RDS <span>Decor</span></a>
+        
+        <!-- Desktop Nav -->
+        <nav class="nav-links">
+          <a href="/" class="hover-link" >Home</a>
+          <a href="/about/" class="hover-link" >About</a>
+          <a href="/services/" class="hover-link" style="color: var(--color-gold);">Services</a>
+          <a href="/portfolio/" class="hover-link" >Portfolio</a>
+          <a href="/testimonials/" class="hover-link" >Testimonials</a>
+          <a href="/contact/" class="hover-link" >Contact</a>
+        </nav>
+
+        <a href="https://wa.me/919025066027" class="btn btn-sweep desktop-book-btn" target="_blank">
+          <span class="btn-text">Book Now</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <div class="mobile-menu-btn" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+      <nav class="mobile-nav-links">
+        <a href="/" >Home</a>
+        <a href="/about/" >About</a>
+        <a href="/services/" style="color: var(--color-gold);">Services</a>
+        <a href="/portfolio/" >Portfolio</a>
+        <a href="/testimonials/" >Testimonials</a>
+        <a href="/contact/" >Contact</a>
+      </nav>
+      <a href="https://wa.me/919025066027" class="btn btn-sweep mt-4" target="_blank">
+          <span class="btn-text">Book Now</span>
+      </a>
+    </div>
+
+
+    <!-- Page Header -->
+    <section class="section" style="padding-top: 180px; padding-bottom: 60px; background: var(--color-black); color: var(--color-ivory); text-align: center;">
+      <div class="container">
+        <h1 class="fade-up" style="font-size: 4rem; color: var(--color-gold);">Signature Services</h1>
+        <p class="fade-up delay-1" style="max-width: 600px; margin: 20px auto 0; font-size: 1.2rem; color: #aaaaaa;">Bespoke stage decorations meticulously tailored to your unique celebration.</p>
+      </div>
+    </section>
+
+    <!-- Glassmorphism Services Section -->
+    <section class="services section bg-mesh" id="services" style="padding-top: 80px;">
+      <div class="container">
+        <div class="services-glass-grid">
+          <div class="glass-card fade-up">
+            <div class="icon-wrap"><i class="fas fa-ring"></i></div>
+            <h3>Wedding Stage</h3>
+            <p>Majestic, royal, and meticulously detailed setups for your grand day. We specialize in bringing palatial aesthetics to your venue, complete with grand arches, velvet backdrops, and opulent props.</p>
+          </div>
+          <div class="glass-card fade-up delay-1">
+            <div class="icon-wrap"><i class="fas fa-glass-cheers"></i></div>
+            <h3>Reception Decor</h3>
+            <p>Modern, glamorous designs featuring crystals, mirrors, and elegant lighting. Perfect for evening events looking for a sophisticated, contemporary edge.</p>
+          </div>
+          <div class="glass-card fade-up delay-2">
+            <div class="icon-wrap"><i class="fas fa-heart"></i></div>
+            <h3>Engagement Setup</h3>
+            <p>Intimate, romantic, and highly personalized decors to celebrate your beginning. Soft color palettes, delicate florals, and cozy seating arrangements.</p>
+          </div>
+          <div class="glass-card fade-up">
+            <div class="icon-wrap"><i class="fas fa-leaf"></i></div>
+            <h3>Floral Artistry</h3>
+            <p>Exquisite, fresh arrangements using premium imported and local blooms. We create stunning floral ceilings, enchanted pathways, and cascading centerpieces.</p>
+          </div>
+          <div class="glass-card fade-up delay-1">
+            <div class="icon-wrap"><i class="fas fa-lightbulb"></i></div>
+            <h3>Ambient Lighting</h3>
+            <p>Cinematic lighting designs that dictate the mood and elevate photographs. From fairy light canopies to architectural uplighting, we set the perfect atmosphere.</p>
+          </div>
+          <div class="glass-card fade-up delay-2">
+            <div class="icon-wrap"><i class="fas fa-paint-brush"></i></div>
+            <h3>Custom Themes</h3>
+            <p>Entirely bespoke worlds designed specifically around your unique vision. Whether it's a vintage rustic theme or a modern futuristic vibe, we build it from scratch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section text-center" style="background: var(--color-beige);">
+        <div class="container fade-up">
+            <h2 class="section-title">Ready to bring your vision to life?</h2>
+            <p class="lead" style="margin-bottom: 40px;">Our consultants are ready to help you plan the perfect setup.</p>
+            <a href="https://wa.me/919025066027" class="btn btn-sweep" target="_blank">
+                <span class="btn-text">Schedule a Free Consultation</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo mb-3 d-inline-block">RDS <span>Decor</span></a>
+          <p>Crafting luxurious, unforgettable stage decorations for your most cherished events since 2016.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="/" class="hover-link">Home</a>
+          <a href="/about/" class="hover-link">About Us</a>
+          <a href="/services/" class="hover-link">Services</a>
+          <a href="/portfolio/" class="hover-link">Portfolio</a>
+          <a href="/testimonials/" class="hover-link">Testimonials</a>
+          <a href="/contact/" class="hover-link">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Connect</h4>
+          <p><i class="fas fa-phone"></i> +91 9025066027</p>
+          <p><a href="https://wa.me/919025066027" target="_blank" class="hover-link"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p>&copy; 2026 RDS Stage Decorations. All Rights Reserved. Designed with Excellence.</p>
+      </div>
+    </footer>
+
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/919025066027" class="whatsapp-float magnetic" target="_blank" aria-label="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

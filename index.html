@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RDS Stage Decorations | Premium Event Decor</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <!-- Custom Cursor (optional flair, implemented in CSS/JS) -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-content">
+        <a href="/" class="logo">RDS <span>Decor</span></a>
+        
+        <!-- Desktop Nav -->
+        <nav class="nav-links">
+          <a href="/" class="hover-link" style="color: var(--color-gold);">Home</a>
+          <a href="/about/" class="hover-link" >About</a>
+          <a href="/services/" class="hover-link" >Services</a>
+          <a href="/portfolio/" class="hover-link" >Portfolio</a>
+          <a href="/testimonials/" class="hover-link" >Testimonials</a>
+          <a href="/contact/" class="hover-link" >Contact</a>
+        </nav>
+
+        <a href="https://wa.me/919025066027" class="btn btn-sweep desktop-book-btn" target="_blank">
+          <span class="btn-text">Book Now</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <div class="mobile-menu-btn" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+      <nav class="mobile-nav-links">
+        <a href="/" style="color: var(--color-gold);">Home</a>
+        <a href="/about/" >About</a>
+        <a href="/services/" >Services</a>
+        <a href="/portfolio/" >Portfolio</a>
+        <a href="/testimonials/" >Testimonials</a>
+        <a href="/contact/" >Contact</a>
+      </nav>
+      <a href="https://wa.me/919025066027" class="btn btn-sweep mt-4" target="_blank">
+          <span class="btn-text">Book Now</span>
+      </a>
+    </div>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg parallax-bg" id="hero-bg" style="background-image: url('/images/hero.png');"></div>
+      <div class="hero-overlay"></div>
+      
+      <div class="hero-content container">
+        <div class="title-wrapper">
+          <h1 class="reveal-text">
+            <span class="line"><span class="word">Crafting</span></span>
+            <span class="line"><span class="word">Unforgettable</span></span>
+            <span class="line"><span class="word">Moments.</span></span>
+          </h1>
+        </div>
+        <p class="fade-up delay-2">Bespoke stage decorations for the most luxurious weddings and special events.</p>
+        <div class="hero-actions fade-up delay-3">
+          <a href="#portfolio" class="btn btn-outline-sweep">
+            <span class="btn-text">Explore Portfolio</span>
+          </a>
+          <a href="https://wa.me/919025066027" class="btn btn-sweep" target="_blank">
+            <span class="btn-text"><i class="fab fa-whatsapp"></i> Chat with Us</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Marquee -->
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <span>✧ PREMIUM DECORATIONS</span>
+        <span>✧ ROYAL WEDDINGS</span>
+        <span>✧ CUSTOM THEMES</span>
+        <span>✧ FLORAL ARTISTRY</span>
+        <span>✧ LUXURY LIGHTING</span>
+        <!-- Duplicate for infinite loop -->
+        <span>✧ PREMIUM DECORATIONS</span>
+        <span>✧ ROYAL WEDDINGS</span>
+        <span>✧ CUSTOM THEMES</span>
+        <span>✧ FLORAL ARTISTRY</span>
+        <span>✧ LUXURY LIGHTING</span>
+      </div>
+    </div>
+
+    <!-- Asymmetric About Section -->
+    <section class="about section" id="about">
+      <div class="about-bg-text">Elegance</div>
+      <div class="container about-asymmetric">
+        <div class="about-images fade-in-left">
+          <div class="img-wrapper main-img parallax-img">
+            <img src="/images/reception.png" alt="Elegant Reception Stage">
+          </div>
+          <div class="img-wrapper sub-img">
+            <img src="/images/floral.png" alt="Floral Details">
+          </div>
+        </div>
+        <div class="about-text fade-in-right">
+          <h4 class="subtitle">Our Philosophy</h4>
+          <h2 class="section-title">Artistry in Every Detail</h2>
+          <p class="lead">At RDS Stage Decorations, we treat every event as a masterpiece waiting to be unveiled.</p>
+          <p>With an eye for high-end aesthetics and years of experience, our team transforms blank canvases into breathtaking, cinematic environments that leave lasting impressions.</p>
+          
+          <div class="about-stats mt-4">
+            <div><strong>10+</strong><br>Years</div>
+            <div><strong>500+</strong><br>Events</div>
+            <div><strong>100%</strong><br>Bespoke</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Glassmorphism Services Section -->
+    <section class="services section bg-mesh" id="services">
+      <div class="container">
+        <div class="section-header text-center fade-up">
+          <h4 class="subtitle">What We Do</h4>
+          <h2 class="section-title">Signature Services</h2>
+        </div>
+        
+        <div class="services-glass-grid">
+          <div class="glass-card fade-up">
+            <div class="icon-wrap"><i class="fas fa-ring"></i></div>
+            <h3>Wedding Stage</h3>
+            <p>Majestic, royal, and meticulously detailed setups for your grand day.</p>
+          </div>
+          <div class="glass-card fade-up delay-1">
+            <div class="icon-wrap"><i class="fas fa-glass-cheers"></i></div>
+            <h3>Reception Decor</h3>
+            <p>Modern, glamorous designs featuring crystals, mirrors, and elegant lighting.</p>
+          </div>
+          <div class="glass-card fade-up delay-2">
+            <div class="icon-wrap"><i class="fas fa-heart"></i></div>
+            <h3>Engagement Setup</h3>
+            <p>Intimate, romantic, and highly personalized decors to celebrate your beginning.</p>
+          </div>
+          <div class="glass-card fade-up">
+            <div class="icon-wrap"><i class="fas fa-leaf"></i></div>
+            <h3>Floral Artistry</h3>
+            <p>Exquisite, fresh arrangements using premium imported and local blooms.</p>
+          </div>
+          <div class="glass-card fade-up delay-1">
+            <div class="icon-wrap"><i class="fas fa-lightbulb"></i></div>
+            <h3>Ambient Lighting</h3>
+            <p>Cinematic lighting designs that dictate the mood and elevate photographs.</p>
+          </div>
+          <div class="glass-card fade-up delay-2">
+            <div class="icon-wrap"><i class="fas fa-paint-brush"></i></div>
+            <h3>Custom Themes</h3>
+            <p>Entirely bespoke worlds designed specifically around your unique vision.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Staggered Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center fade-up">
+          <h4 class="subtitle">Featured Work</h4>
+          <h2 class="section-title">Our Masterpieces</h2>
+        </div>
+        
+        <div class="masonry-grid">
+          <div class="masonry-item large fade-up">
+            <div class="image-wrapper">
+              <img src="/images/hero.png" alt="Royal Wedding Stage">
+              <div class="overlay-content">
+                <span class="category">Wedding</span>
+                <h4>The Royal Heritage</h4>
+              </div>
+            </div>
+          </div>
+          <div class="masonry-item medium fade-up delay-1">
+            <div class="image-wrapper">
+              <img src="/images/reception.png" alt="Elegant Reception">
+              <div class="overlay-content">
+                <span class="category">Reception</span>
+                <h4>Modern Glamour</h4>
+              </div>
+            </div>
+          </div>
+          <div class="masonry-item small fade-up delay-2">
+            <div class="image-wrapper">
+              <img src="/images/floral.png" alt="Floral Arch">
+              <div class="overlay-content">
+                <span class="category">Floral</span>
+                <h4>Garden of Eden</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center mt-5 fade-up">
+           <a href="https://wa.me/919025066027" class="btn btn-outline-sweep" target="_blank">
+             <span class="btn-text">Request Full Gallery</span>
+           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us section bg-dark text-white" id="why-us">
+      <div class="container why-container">
+        <div class="why-text fade-in-left">
+          <h4 class="subtitle" style="color: var(--color-gold);">The RDS Difference</h4>
+          <h2 class="section-title" style="color: var(--color-ivory);">Excellence as a Standard.</h2>
+          <p>We combine architectural precision with artistic flair. Every drape, every light, and every petal is deliberately placed to create a cohesive, breathtaking environment.</p>
+          <a href="https://wa.me/919025066027" class="btn btn-sweep mt-4 d-inline-block" target="_blank">
+            <span class="btn-text">Consult With Us</span>
+          </a>
+        </div>
+        <div class="why-image-grid fade-in-right">
+            <!-- Decorative elements to add depth -->
+            <div class="decor-circle"></div>
+            <img src="/images/reception.png" class="stack-img img-1" alt="Decor Detail">
+            <img src="/images/floral.png" class="stack-img img-2" alt="Decor Detail">
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo mb-3 d-inline-block">RDS <span>Decor</span></a>
+          <p>Crafting luxurious, unforgettable stage decorations for your most cherished events since 2016.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <a href="/" class="hover-link">Home</a>
+          <a href="/about/" class="hover-link">About Us</a>
+          <a href="/services/" class="hover-link">Services</a>
+          <a href="/portfolio/" class="hover-link">Portfolio</a>
+          <a href="/testimonials/" class="hover-link">Testimonials</a>
+          <a href="/contact/" class="hover-link">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Connect</h4>
+          <p><i class="fas fa-phone"></i> +91 9025066027</p>
+          <p><a href="https://wa.me/919025066027" target="_blank" class="hover-link"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></p>
+          <div class="social-icons mt-3">
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p>&copy; 2026 RDS Stage Decorations. All Rights Reserved. Designed with Excellence.</p>
+      </div>
+    </footer>
+
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/919025066027" class="whatsapp-float magnetic" target="_blank" aria-label="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
