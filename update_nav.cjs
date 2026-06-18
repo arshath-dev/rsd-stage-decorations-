@@ -26,7 +26,7 @@ const getHeaderHtml = (activeKey) => `
           <a href="/contact/" class="hover-link" ${activeKey === 'contact' ? 'style="color: var(--color-gold);"' : ''}>Contact</a>
         </nav>
 
-        <a href="https://wa.me/919025066027" class="btn btn-sweep desktop-book-btn" target="_blank">
+        <a href="https://wa.me/918438886853" class="btn btn-sweep desktop-book-btn" target="_blank">
           <span class="btn-text">Book Now</span>
         </a>
 
@@ -49,7 +49,7 @@ const getHeaderHtml = (activeKey) => `
         <a href="/testimonials/" ${activeKey === 'testimonials' ? 'style="color: var(--color-gold);"' : ''}>Testimonials</a>
         <a href="/contact/" ${activeKey === 'contact' ? 'style="color: var(--color-gold);"' : ''}>Contact</a>
       </nav>
-      <a href="https://wa.me/919025066027" class="btn btn-sweep mt-4" target="_blank">
+      <a href="https://wa.me/918438886853" class="btn btn-sweep mt-4" target="_blank">
           <span class="btn-text">Book Now</span>
       </a>
     </div>
