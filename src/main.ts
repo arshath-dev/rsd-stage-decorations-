@@ -52,8 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (mobileMenuBtn && mobileNavOverlay) {
              mobileMenuBtn.classList.remove('open');
              mobileNavOverlay.classList.remove('active');
-             document.body.style.overflow = '';
-             document.documentElement.style.overflow = '';
+             document.body.classList.remove('no-scroll');
           }
         }
       }
@@ -138,8 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileMenuBtn.classList.toggle('open');
       mobileNavOverlay.classList.toggle('active');
       const isMenuOpen = mobileNavOverlay.classList.contains('active');
-      document.body.style.overflow = isMenuOpen ? 'hidden' : '';
-      document.documentElement.style.overflow = isMenuOpen ? 'hidden' : '';
+      document.body.classList.toggle('no-scroll', isMenuOpen);
     });
   }
 
